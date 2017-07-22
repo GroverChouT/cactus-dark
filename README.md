@@ -6,63 +6,64 @@ A responsive, dark and simple [Hexo](http://hexo.io) theme for a personal websit
 
 ![cactus-dark](https://cloud.githubusercontent.com/assets/2175271/19885143/62e9269c-a01d-11e6-8e26-e36a36201d88.png)
 
-## Summary
+## 总览
 
-- [General](#general)
-- [Features](#features)
-- [Install](#install)
-- [Configuration](#configuration)
+- [概括](#概括)
+- [特性](#特性)
+- [安装](#安装)
+- [配置](#配置)
 - [License](#license)
 
-## General
+## 概括
 
-- **Version** : 2.0
-- **Compatibility** : Hexo 3 or later
+- **版本** : 2.0
+- **适配** : Hexo 3 或更高
 
-## Features
+## 特性
 
-- Fully responsive
+- 完全的响应式
 - Disqus
-- Googe analytics
-- Font Awesome icons
-- Pick your own code highlighting scheme
-- Configurable navigation menu
-- Projects list
-- Simplicity
+- Googe 分析
+- Font Awesome 图标
+- 可选的代码高亮方案
+- 可配置的导航栏
+- 项目列表
+- 简洁
 
-## Install
-1. In the `root` directory:
+## 安装
+
+1. 在 `root` 文件夹中：
 
     ```git
-    $ git clone https://github.com/probberechts/cactus-dark.git themes/cactus-dark
+    $ git clone https://github.com/GroverChouT/cactus-dark-zh themes/cactus-dark-zh
     $ npm install hexo-pagination --save
     ```
 
-2. Change the `theme` property in the `config.yml` file.
+2. 在 `config.yml` 文件中修改配置 `theme` 如下：
 
     ```yml
     # theme: landscape
-    theme: cactus-dark
+    theme: cactus-dark-zh
     ```
 
-3. Run: `hexo generate` and `hexo server`
+3. 执行：`hexo generate` 和 `hexo server`
 
-## Configuration
+## 配置
 
-### Navigation
+### 导航
 
-Setup the navigation menu in the theme's `_config.yml`:
+在主题文件夹里的 `_config.yml` 设置：
 
   ```
   nav:
-    Home: /
-    About: /about/
-    Writing: /archives/
-    Projects: http://github.com/probberechts
-    LINK_NAME: URL
+    首页: /
+    关于: /about/
+    写作: /archives/
+    项目: http://github.com/probberechts
+    链接名称: 链接
   ```
 
-### Blog posts list on home page
+### 在首页显示的博客列表
 
 You have two options for the list of blog posts on the home page:
 
@@ -81,7 +82,7 @@ You have two options for the list of blog posts on the home page:
     show_all_posts: true
   ```
 
-### Projects list
+### 项目列表
 
 Create a projects file `source/_data/projects.json`.
 
@@ -100,7 +101,7 @@ Create a projects file `source/_data/projects.json`.
   ]
   ```
 
-### Social media links
+### 社交媒体链接
 
 Cactus Dark can automatically add links to your social media accounts. Therefore, update the theme's `_config.yml`:
 
@@ -122,7 +123,7 @@ Set the `rss` field in the theme's `_config.yml` to one of the following values:
 2. `rss: atom.xml` sets a specific feed link.
 3. `rss:`leave empty to use the [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed) plugin. 
 
-### Analytics
+### 分析
 
 Add you Google Analytics `tracking_id` to the theme's `_config.yml`.
 
@@ -131,7 +132,7 @@ Add you Google Analytics `tracking_id` to the theme's `_config.yml`.
       gooogle_analytics: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
   ```
 
-### Comments
+### 评论
 
 First, create a site on Disqus: [https://disqus.com/admin/create/](http://disqus.com/admin/create/).
 
@@ -144,7 +145,7 @@ Next, update the theme's `_config.yml` file:
 
 where `SITENAME` is the name you gave your site on Disqus.
 
-### Code Highlighting
+### 代码高亮
 
 Pick one of [the available colorschemes](https://github.com/probberechts/cactus-dark/tree/master/source/css/_highlight) and add it to the theme's `_config.yml`:
 
