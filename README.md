@@ -1,8 +1,8 @@
 # Cactus Dark
 
-A responsive, dark and simple [Hexo](http://hexo.io) theme for a personal website.
+一个给个人网站的响应式、黑色、简单的 [Hexo](http://hexo.io) 主题。
 
-:cactus: [Demo](https://probberechts.github.io/cactus-dark/)
+:cactus: [示例](https://probberechts.github.io/cactus-dark/)
 
 ![cactus-dark](https://cloud.githubusercontent.com/assets/2175271/19885143/62e9269c-a01d-11e6-8e26-e36a36201d88.png)
 
@@ -35,7 +35,7 @@ A responsive, dark and simple [Hexo](http://hexo.io) theme for a personal websit
 1. 在 `root` 文件夹中：
 
     ```git
-    $ git clone https://github.com/GroverChouT/cactus-dark-zh themes/cactus-dark-zh
+    $ git clone https://github.com/GroverChouT/cactus-dark-zh.git themes/cactus-dark-zh
     $ npm install hexo-pagination --save
     ```
 
